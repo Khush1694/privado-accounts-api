@@ -16,6 +16,9 @@ public class UserE extends BaseE {
 	@Column(name = "LAST_NAME", length = 200)
 	private String lastName;
 
+	@Column(name = "MIDDLE_NAME", length = 200)
+	private String middleName;
+
 	@Column(name = "EMAIL", length = 200)
 	private String email;
 
@@ -31,9 +34,16 @@ public class UserE extends BaseE {
 	public String getFirstName() {
 		return firstName;
 	}
+	public String getMiddleName() {
+		return middleName;
+	}
 
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
+	}
+
+	public void setMiddleName(String middleName) {
+		this.middleName = middleName;
 	}
 
 	public String getLastName() {
