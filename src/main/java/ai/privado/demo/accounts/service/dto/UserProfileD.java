@@ -14,9 +14,27 @@ public class UserProfileD {
 	private String phone;
 	private String password;
 	private String dob;
+	private String middlename;
+	private String payslip
 
 	public String getId() {
 		return id;
+	}
+	
+	public String getMiddlename() {
+		return middlename;
+	}
+
+	public void setMiddlename(String middlename) {
+		this.middlename = middlename;
+	}
+
+	public String getPayslip() {
+		return payslip;
+	}
+
+	public void setPayslip(String payslip) {
+		this.payslip = payslip;
 	}
 
 	public void setId(String id) {
